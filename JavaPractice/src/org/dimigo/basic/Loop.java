@@ -28,11 +28,13 @@ public class Loop {
 		int power = 100;
 		
 		do {
+			System.out.println("------------");
 			System.out.println("<< 게임 메뉴 >>");
 			System.out.println("1. 공격력 증가");
 			System.out.println("2. 공격력 감소");
 			System.out.println("3. 캐릭터 설정");
 			System.out.println("9. 종료");
+			System.out.println("------------");
 			
 			choice = scanner.nextInt();
 			
