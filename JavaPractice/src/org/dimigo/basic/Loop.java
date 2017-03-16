@@ -35,6 +35,7 @@ public class Loop {
 			System.out.println("3. 캐릭터 설정");
 			System.out.println("9. 종료");
 			System.out.println("------------");
+			System.out.printf("메뉴 입력 => ");
 			
 			choice = scanner.nextInt();
 			
@@ -45,7 +46,7 @@ public class Loop {
 				break;
 			case 2:
 				power = power-10;
-				System.out.println("공격력이 감소되었습니다. 현재 공격력 : ");
+				System.out.println("공격력이 감소되었습니다. 현재 공격력 : "+power);
 				break;
 			case 3:
 					int a = random.nextInt(4);
