@@ -29,7 +29,7 @@ public class CarTest2 {
       System.out.println("최대속도 : "+ car.getmaxSpeed()+"km");
       System.out.println("가격 : "+String.format("%,d", car.getPrice())+ '원');   
       
-      Car2 car1 = new Car2("기아자동차","K7","흰",246,40000000);
+      Car2 car1 = new Car2("기아자동차","K7","흰색",246,40000000);
       
       System.out.println("");
       System.out.println("제조사명 : "+ car1.getCompany());
@@ -38,7 +38,7 @@ public class CarTest2 {
       System.out.println("최대속도 : "+ car1.getmaxSpeed()+"km");
       System.out.println("가격 : "+String.format("%,d", car1.getPrice())+ '원');   
       
-      Car2 car2 = new Car2("삼성자동차","SM7","회",200,38000000);
+      Car2 car2 = new Car2("삼성자동차","SM7","회색",200,38000000);
       
       System.out.println("");
       System.out.println("제조사명 : "+ car2.getCompany());
